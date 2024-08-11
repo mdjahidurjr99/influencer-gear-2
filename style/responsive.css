@@ -1,0 +1,188 @@
+@media screen and (max-width: 699px){
+    .navbar{
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 10px;
+        
+        & .navbar-list{
+            & .navbar-item{
+                gap: 20px;
+                & li{
+                    & a{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .hero-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        padding: 50px 10px 50px 10px;
+    }
+    .hero-text{
+        text-align: center;
+    }
+    
+    .brand-logo-section{
+
+        & .brand-logo-container{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+            padding: 10px;
+            gap: 10px;
+            
+        }
+    }
+    .popular-cards{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        padding: 0;
+
+        & .card{
+            width: max-content;
+        }
+    }
+    .feature-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        padding: 10px;
+
+    }
+    .feature-img img{
+        width: 100%;
+    }
+    .feature-text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (min-width: 700px) and (max-width: 776px){
+
+    .navbar{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .hero-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        padding: 50px 10px 50px 10px;
+    }
+    .hero-text{
+        text-align: center;
+    }
+    .brand-logo-section{
+
+        & .brand-logo-container{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            justify-items: center;
+            padding: 10px;
+            gap: 10px;
+            
+        }
+    }
+    .popular-cards{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        padding: 0;
+    }
+    .feature-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        padding: 10px;
+    }
+    .feature-img{
+        border-radius: 7px;
+        width: auto;
+    }
+    .feature-text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (min-width: 777px) and (max-width: 1050px){
+    .navbar{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .hero-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        padding: 50px 10px 50px 10px;
+    }
+    .hero-text{
+        text-align: center;
+    }
+    .brand-logo-section{
+
+        & .brand-logo-container{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            justify-items: center;
+            padding: 10px;
+            gap: 10px;
+            
+        }
+    }
+    .popular-cards{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        padding: 0;
+    }
+    .feature-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        padding: 10px;
+    }
+    .feature-img{
+        border-radius: 7px;
+        width: auto;
+    }
+    .feature-text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1200px){
+    .popular-cards{
+        padding: 10px;
+    }
+    .feature-container{
+        gap: 50px;
+    }
+
+}
